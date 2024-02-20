@@ -1,0 +1,82 @@
+.devoir{
+    width:100w;
+    height:100vh;
+    background-image: linear-gradient(315deg,green, #FFE109, red);
+
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 0.2fr 1fr 0.3fr;
+
+}
+
+header nav ul li{
+    list-style-type: none;
+    display: inline;
+    color: green;
+    padding: 0px 0px 0px 30px ;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header nav ul li:hover{
+    background-color: red;
+    
+}
+
+section img {
+    float: left;
+    padding: 0px 0px 0px 80px;
+}
+
+section article {
+    list-style: none;
+    float: right;
+    padding: 0px 180px 0px 0px;
+    color: black;  
+}
+
+section span {
+    background-color: transparent;
+    list-style: none;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+.a{
+    justify-content: left;
+    padding: 100px 0px 0px 0px;
+   background-color:chartreuse; 
+
+}
+.b{
+    justify-content: left;
+    padding: 100px 0.25px 0px 0px;
+    background-color: aqua;
+}
+.c{
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    background-color: blueviolet;
+}
+.d{
+    justify-content: right;
+    padding: 100px 0px 0px 0.50px;
+    background-color: chocolate;
+}
+.e{
+    justify-content: right;
+    padding: 100px 0px 0px 0px;
+    background-color: blue;  
+}
+
+footer{   
+    
+    background-color: crimson;
+    display: inline;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
