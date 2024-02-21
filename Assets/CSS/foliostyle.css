@@ -1,82 +1,224 @@
 .devoir{
     width:100w;
     height:100vh;
-    background-image: linear-gradient(315deg,green, #FFE109, red);
-
+    background-color: #2B2A4C;
     display: grid;
     grid-template-columns:1fr;
-    grid-template-rows: 0.2fr 1fr 0.3fr;
-
+    grid-template-rows: 0.1fr 700px;
 }
 
-header nav ul li{
-    list-style-type: none;
+.iframe{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(315deg,#EEE2DE, #EA906C, #B31312);
+}
+
+
+.img{
+    float: left;
+    padding: 50px 0px 0px 0px;
+}
+
+.generale{
+    display: flex;
+    color:#B31312 ;
+}
+
+
+.page{
+    color:#2B2A4C;
+    width: 60w;
+    text-align: justify;
+    padding: 110px 80px 80px 0px;
+}
+
+header{
     display: inline;
-    color: green;
-    padding: 0px 0px 0px 30px ;
 }
 
+header nav ul li{ 
+    display: inline;
+    padding: 0px 25px 0px 25px ;
+}
+
+header nav ul li a{
+    font-size: large;
+    text-decoration: dashed;
+    color: #EEE2DE;
+}
+    
 nav {
     display: flex;
     justify-content: center;
-    
+
 }
 
 header nav ul li:hover{
-    background-color: red;
-    
+    min-height: 0%;
+    background-image: linear-gradient(315deg,#EEE2DE, #EA906C, #B31312);   
 }
 
-section img {
+.head{
+    font-size: x-large;
     float: left;
-    padding: 0px 0px 0px 80px;
-}
-
-section article {
-    list-style: none;
-    float: right;
-    padding: 0px 180px 0px 0px;
-    color: black;  
-}
-
-section span {
-    background-color: transparent;
-    list-style: none;
-    float: left;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 25px;
     color: black;
 }
-.a{
-    justify-content: left;
-    padding: 100px 0px 0px 0px;
-   background-color:chartreuse; 
 
+.head ul li{
+    list-style-type: none;
 }
+
+.head{
+    width: 95vw;
+    height: 680px;
+}
+
+.apropos{
+    color: #EEE2DE;
+    padding: 0px 0px 0px 20px;
+    float: left;
+}
+
+.table{
+    color: #B31312;
+    padding: 200px 0px 0px 200px;
+    float: left;
+}
+
+.loisir{
+    color: #2B2A4C;
+    padding: 400px 50px 0px 0px;
+    float: right;
+}
+
+.competence{
+    display: inline;
+    padding: 0px 0px 0px 9px;
+}
+
+.competence {
+display: flex;
+justify-content: center;
+}
+
+.competence {
+    width: 98vw;
+    height: 680px;
+}
+
+.techno{
+    margin: 0px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #EA906C;
+    color: #EEE2DE;
+}
+
+.outil{
+    margin: 25px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #B31312;
+    color: #EEE2DE;
+}
+
+.langue{
+    margin: 50px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #2B2A4C;
+    color: #EEE2DE;
+}
+
+.archi{
+    margin: 75px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #EA906C;
+    color: #EEE2DE;
+}
+
+.base{
+    margin: 100px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #B31312;
+    color: #EEE2DE;
+}
+
+.methode{
+    margin: 125px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #2B2A4C;
+    color: #EEE2DE;
+}
+
+.a{
+    margin: 100px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #EA906C;
+    color: #EEE2DE; 
+}
+
 .b{
-    justify-content: left;
-    padding: 100px 0.25px 0px 0px;
-    background-color: aqua;
+    margin: 75px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #B31312;
+    color: #EEE2DE;
 }
+
 .c{
-    justify-content: center;
-    padding: 100px 0px 0px 0px;
-    background-color: blueviolet;
+    margin: 50px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #2B2A4C;
+    color: #EEE2DE;
 }
 .d{
-    justify-content: right;
-    padding: 100px 0px 0px 0.50px;
-    background-color: chocolate;
-}
-.e{
-    justify-content: right;
-    padding: 100px 0px 0px 0px;
-    background-color: blue;  
+    margin: 25px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color:  #EA906C;
+    color: #EEE2DE;
 }
 
-footer{   
-    
-    background-color: crimson;
-    display: inline;
-    justify-content: center;
-    padding: 0px 0px 0px 0px;
+.e{
+    margin: 0px 0px 0px 0px;
+    width: 20%;
+    font-size: x-large;
+    background-color: #B31312;
+    color: #EEE2DE; 
 }
+
+.expert{      
+    display: flex;
+    padding: 0px 0px 0px 9px;   
+}
+
+ .expert{
+    width: 98vw;
+    height: 680px;
+ }
+
+
+ .title{
+    display: inline;
+    text-align: center;
+    font-size: xx-large;
+    color: #EEE2DE;
+ }
+
+ .form{
+    display: inline;
+    text-align: center;
+    font-size: x-large; 
+ }
+ .form ul li{
+   list-style-type: none; 
+ }
+
+ 
